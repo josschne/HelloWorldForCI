@@ -4,6 +4,4 @@ all:
 depend:
 	sudo apt-get install libgtest-dev cmake
 	mkdir -p .gtest-build
-	cd .gtest-build
-	cmake /usr/src/gtest/
-	make
+	cd .gtest-build; cmake /usr/src/gtest/;	make
