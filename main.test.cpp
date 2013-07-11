@@ -2,5 +2,5 @@
 
 TEST(HelloWorldTest, HelloWorld)
 {
-	ASSERT_EQ(1, 0);
+	ASSERT_EQ(1, 1);
 }
